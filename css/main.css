@@ -25,45 +25,34 @@ body {
     border-style: groove;
 }
 
-.menu ul li {
-    padding: 10px;
-    display: inline-block;
-}
-
-.menu ul li a {
+.navbar-nav a {
+    color: white;
     text-decoration: none;
     text-shadow: 1px 1px 4px #231f20;
     transition: all 100ms ease;
-    color: white;
 }
 
-.menu ul li a:hover {
-    color: aqua;
+.navbar-nav a:hover {
+    color: rgb(87, 200, 162);
     border-bottom: 1px solid whitesmoke;
+}
+
+.container-fluid button {
+    background-color: whitesmoke;
+    color: whitesmoke
 }
 
 /* fin de header */
 
 /* wrapper */ 
 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 468px;
+.carousel-inner div img {
     width: 100%;
-    background-image: url(https://s1.1zoom.me/b5050/376/423622-Kycb_1920x1080.jpg);
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: cover;
+    height: 400px;
 }
 
-.wrapper h2 {
-    margin-bottom: -600px;
+.carousel-caption h5 {
     text-shadow: 1px 1px 4px #231f20;
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    font-weight: bold;
 }
 
 /* fin de wrapper */ 
@@ -246,8 +235,8 @@ body {
 
     .medios-pago {
         background-color: white;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        justify-items: center;
         margin-right: -15px;
         margin-left: -15px;
         text-align: center;
@@ -257,8 +246,6 @@ body {
         justify-content: flex-end !important;
         display: flex;
         flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px; 
         text-align: center;
     }
 
@@ -597,4 +584,9 @@ body {
     border-radius: .2em;
     cursor: pointer;
     font-weight: 400;
+}
+
+script {
+    width: none;
+    height: none;
 }
