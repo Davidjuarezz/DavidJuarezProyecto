@@ -210,6 +210,83 @@ body {
         flex-direction: row !important;
     }
 
+    .all-info {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-01 {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: -15px;
+        margin-left: -15px;
+        text-align: center;
+    }
+
+    .text-01 p {
+        max-width: 33.3333333333%;
+        color: black;
+    }
+
+    .mvv {
+        background-color: whitesmoke;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        text-align: center;
+    }
+
+    .mvv div {
+        max-width: 33.3333333333%;
+    }
+
+    .medios-pago {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        text-align: center;
+    }
+
+    .medios-pago01 {
+        justify-content: flex-end !important;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px; 
+        text-align: center;
+    }
+
+    .medios-pago00 {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .medios-pago00 h2 {
+        text-shadow: 1px 1px 4px #231f20;
+        color: #9c1618;
+    }
+    
+    .medios-pago01 div {
+        display: block;
+        flex: 0 0 16.6666666667%;
+        max-width: 33.3333333333%;
+        position: relative;
+        min-height: 1px;
+        width: 100%;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
 
 }
 
@@ -411,4 +488,113 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
+}
+
+/* cierre empresas.html */
+
+/* quienes-somos.html */
+
+.all-info {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: ;
+}
+
+.mvv {
+    justify-content: center;
+    text-align: center;
+}
+
+.medios-pago00 {
+    text-align: center;
+}
+
+.medios-pago01 div img {
+    width: 150px;
+    height: 150px;
+}
+
+.medios-pago00 h2 {
+    text-shadow: 1px 1px 4px #231f20;
+    color: #9c1618;
+}
+
+.medios-pago01 {
+    display: grid;
+    grid-template-areas:
+    "tarjeta efectivo"
+    "transferencia efectivo"
+    ;
+}
+
+.efectivo {
+    grid-area: efectivo;
+}
+
+.transferencia {
+    grid-area: transferencia;
+}
+
+.tarjeta {
+    grid-area: tarjeta;
+}
+
+/* cierre quienes-somos.html */
+
+/* contancto.html */
+
+.allitems {
+    background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    width: 100%;
+}
+.form {
+    margin: auto;
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form-tittle {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form_input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: 1.5em;
+}
+
+.form_cta {
+    font-family: inherit;
+    background-color: #089fe0;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: 1.7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
 }
