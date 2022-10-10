@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000000;
     width: 100%;
     margin: 0%;
 }
@@ -95,7 +95,7 @@ body {
 } 
 
 .low-wrapper figure figcaption a:hover {
-    color: #0d2033;
+    color: rgb(87, 200, 162);
 }
 /* fin de low-wrapper */
 
@@ -266,6 +266,12 @@ body {
         padding-left: 60px;
     }
 
+    .allitems {
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-size: cover; 
+    }
+
 }
 
 /* destinos.html */
@@ -426,7 +432,7 @@ body {
 
 /* empresas.html */
 
-.empresas {
+/* .empresas {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -437,15 +443,9 @@ body {
     height: 320px;
 }
 
-.empresas h2 {
-    color: white;
-    text-shadow: 1px 1px 4px #231f20;
 
-}
 
-.empresas p {
-    color: white;
-}
+
 
 .oceantur {
     display: flex;
@@ -466,8 +466,26 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
+} */
+.empresas h2 {
+    color: white;
+    text-shadow: 1px 1px 4px #231f20;
+
 }
 
+.empresas p {
+    color: white;
+}
+
+.empresas img {
+    width: 220px;
+    height: 220px;
+}
+
+.row img {
+    width: 220px;
+    height: 220px;
+}
 /* cierre empresas.html */
 
 /* quienes-somos.html */
@@ -522,15 +540,12 @@ body {
 
 .allitems {
     background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: cover;
-    width: 100%;
+    width: 100%; 
 }
 .form {
-    margin: auto;
+    margin: auto; 
     background-color: whitesmoke;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     border-radius: 1em;
     padding: 3.5em 1.5em;
@@ -575,3 +590,6 @@ body {
     cursor: pointer;
     font-weight: 400;
 }
+
+
+
