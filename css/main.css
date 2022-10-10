@@ -7,24 +7,15 @@ body {
 
 .header {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
-.header h1 {
-    text-shadow: 1px 1px 4px #231f20;
-    color: #efefef;
-    font-family: 'Pacifico', cursive;
-    font-style: normal;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 15px;
-    border-style: groove;
+.header div img {
+    width: 165px;
+    height: 160px;
 }
-
 .navbar-nav a {
     color: white;
     text-decoration: none;
@@ -160,7 +151,7 @@ body {
 
 @media screen and (min-width: 1024px) {
     .header {
-        height: 200px;
+        height: 110px;
         width: 100%;
 
         display: flex;
@@ -484,7 +475,6 @@ body {
 .all-info {
     background-color: whitesmoke;
     display: grid;
-    grid-template-columns: ;
 }
 
 .mvv {
@@ -584,9 +574,4 @@ body {
     border-radius: .2em;
     cursor: pointer;
     font-weight: 400;
-}
-
-script {
-    width: none;
-    height: none;
 }
