@@ -89,6 +89,7 @@ body {
 .low-wrapper figure img {
     height: 283px;
     width: 504px;
+    max-width: 100%;
     margin: 1em;
     padding: 1em;
     float: center; 
@@ -149,6 +150,18 @@ body {
 
 /* media screen */ 
 
+@media only screen and (max-width: 768px) {
+    .pie-pagina .grupo-01 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .low-wrapper figure img {
+        margin: 0px;
+        padding: 0px;
+    }
+}
 @media screen and (min-width: 1024px) {
     .header {
         height: 110px;
